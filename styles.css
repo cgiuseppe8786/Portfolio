@@ -225,10 +225,9 @@ body[data-theme="dark"] .projects {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 16px;
-
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .project-tile {
@@ -296,7 +295,11 @@ body[data-theme="dark"] .projects {
 @media (max-width: 760px){
   .card img{ min-height: 150px; }
   .card figcaption{ font-size: .95rem; padding: 8px 10px; }
+  .projects-grid{
+    grid-template-columns: 1fr;
+  }
 }
+ 
 
 /* ===================== */
 /* PROJECTS CTA BUTTON   */
@@ -375,7 +378,6 @@ body[data-theme="dark"] .projects-btn {
   max-width:1100px; margin:0 auto; padding:14px 16px; color: var(--muted);
   display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap;
 }
-.dim{ opacity:.8; }
 
 /* ===================== */
 /* MEDIA QUERIES         */
