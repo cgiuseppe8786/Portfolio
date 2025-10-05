@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nova — Personal Portfolio</title>
+  <title>Giuseppe C. — Personal Portfolio</title>
 
   <!-- Stili principali -->
   <link rel="stylesheet" href="styles.css" />
 
   <!-- Descrizione sintetica -->
-  <meta name="description" content="Portfolio di Giuseppe — front-end developer. Progetti, contatti e profili tech." />
+  <meta name="description"
+    content="Portfolio di Giuseppe C. — front-end developer. Progetti, contatti e profili tech." />
 </head>
 
 <body>
@@ -24,23 +26,25 @@
        - link interni
        - sticky/glass
        ========================================================= -->
-<header id="navbar" class="nav">
-  <nav class="nav-inner" aria-label="Navigazione principale">
-    <a class="brand" href="#welcome-section" aria-label="Torna al welcome">
-      <span class="brand-mark">◆</span> Giuseppe C.
-    </a>
+  <header id="navbar" class="nav">
+    <nav class="nav-inner" aria-label="Navigazione principale">
+      <a class="brand" href="#welcome-section" aria-label="Torna al welcome">
+        <img src="./assets/logo.png" alt="Logo" class="brand-mark" />
+        <span>Giuseppe C.</span>
+      </a>
 
-    <ul class="nav-links">
-      <li><a class="nav-link" href="#welcome-section">About</a></li>
-      <li><a class="nav-link" href="#projects">Projects</a></li>
-      <li><a class="nav-link" href="#contact">Contact</a></li>
-    </ul>
+      <ul class="nav-links">
+        <li><a class="nav-link" href="#welcome-section">About</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
 
-      <span id="theme-toggle" class="theme-icon" role="button" tabindex="0" aria-label="Cambia tema" title="Cambia tema">
-    🌙
-  </span>
-  </nav>
-</header>
+      <span id="theme-toggle" class="theme-icon" role="button" tabindex="0" aria-label="Cambia tema"
+        title="Cambia tema">
+        🌙
+      </span>
+    </nav>
+  </header>
 
   <!-- =========================================================
        WELCOME (100vh + h1)
@@ -51,7 +55,7 @@
 
     <div class="welcome-inner">
       <div class="welcome-copy">
-        <h1>Hi, I’m Nova</h1>
+        <h1>Hi, I’m Giuseppe</h1>
         <p class="subtitle">Front-end Developer • UI tinkerer • CSS artisan</p>
         <p class="lead">
           Trasformo idee in interfacce accessibili e veloci. Amo micro-animazioni,
@@ -59,7 +63,8 @@
         </p>
         <p class="cta-row">
           <a class="btn" href="#projects">View Projects</a>
-          <a id="profile-link" class="btn ghost" href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <a id="profile-link" class="btn ghost" href="https://github.com/cgiuseppe8786" target="_blank"
+            rel="noopener noreferrer">
             GitHub Profile ↗
           </a>
         </p>
@@ -67,7 +72,7 @@
 
       <figure class="welcome-figure" aria-hidden="true">
         <div class="avatar-ring">
-          <img src="https://picsum.photos/420/420?grayscale" alt="" />
+          <img src="./assets/logo2.png" alt="" />
         </div>
       </figure>
     </div>
@@ -82,53 +87,75 @@
     <h2 class="section-title">Selected Work</h2>
 
     <div class="projects-grid">
-      <a class="project-tile card" href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" rel="noopener">
+
+      <!-- Project: Survey Form -->
+      <a class="project-tile card" href="https://cgiuseppe8786.github.io/SurveyForm/" target="_blank" rel="noopener">
         <figure>
-          <img src="https://picsum.photos/seed/alpha/640/400" alt="Anteprima progetto Alpha" />
-          <figcaption>Tribute Page (rework)</figcaption>
+          <img src="./assets/surveyForm.png" alt="Anteprima Survey Form" />
+          <figcaption>
+            Survey Form
+            <small>Created for the Responsive Web Design Certification by freeCodeCamp</small>
+          </figcaption>
         </figure>
       </a>
 
-      <a class="project-tile card tall" href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank" rel="noopener">
+      <!-- Project: Quote Machine -->
+      <a class="project-tile card" href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank" rel="noopener">
         <figure>
-          <img src="https://picsum.photos/seed/beta/640/800" alt="Anteprima progetto Beta" />
-          <figcaption>Quote Machine — themeable</figcaption>
+          <img src="https://picsum.photos/seed/quote/640/400" alt="Anteprima Quote Machine" />
+          <figcaption>Quote Machine
+            <small>dvadvdv dvadvdv dvadvdv dvadvdv dvadvdv dvadvdv
+              dvadvdv dvadvdv
+              dvadvdv dvadvdv
+              dvadvdv dvadvdv
+              dvadvdv dvadvdv
+              dvadvdv dvadvdv
+
+            </small>
+          </figcaption>
+
         </figure>
       </a>
 
+      <!-- Project: JS Calculator -->
       <a class="project-tile card" href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank" rel="noopener">
         <figure>
-          <img src="https://picsum.photos/seed/gamma/640/400" alt="Anteprima progetto Gamma" />
-          <figcaption>JS Calculator — edge cases</figcaption>
+          <img src="https://picsum.photos/seed/calculator/640/400" alt="Anteprima JS Calculator" />
+          <figcaption>JS Calculator</figcaption>
         </figure>
       </a>
 
-      <a class="project-tile card wide" href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank" rel="noopener">
+      <!-- Project: Map Data -->
+      <a class="project-tile card" href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank" rel="noopener">
         <figure>
-          <img src="https://picsum.photos/seed/epsilon/900/360" alt="Anteprima progetto Epsilon" />
-          <figcaption>Map Data — choropleth demo</figcaption>
+          <img src="https://picsum.photos/seed/mapdata/640/400" alt="Anteprima Map Data" />
+          <figcaption>Map Data — Choropleth Demo</figcaption>
         </figure>
       </a>
 
+      <!-- Project: Wikipedia Viewer -->
       <a class="project-tile card" href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank" rel="noopener">
         <figure>
-          <img src="https://picsum.photos/seed/delta/640/400" alt="Anteprima progetto Delta" />
-          <figcaption>Wikipedia Viewer — a11y first</figcaption>
+          <img src="https://picsum.photos/seed/wiki/640/400" alt="Anteprima Wikipedia Viewer" />
+          <figcaption>Wikipedia Viewer</figcaption>
         </figure>
       </a>
 
+      <!-- Project: Tic-Tac-Toe -->
       <a class="project-tile card" href="https://codepen.io/freeCodeCamp/full/NNvBQW" target="_blank" rel="noopener">
         <figure>
-          <img src="https://picsum.photos/seed/zeta/640/400" alt="Anteprima progetto Zeta" />
-          <figcaption>Tic-Tac-Toe with hooks</figcaption>
+          <img src="https://picsum.photos/seed/tictactoe/640/400" alt="Anteprima Tic Tac Toe" />
+          <figcaption>Tic-Tac-Toe</figcaption>
         </figure>
       </a>
     </div>
 
+
     <p class="projects-cta">
-      <a class="btn ghost" href="#contact">Let’s collaborate</a>
+      <a class="projects-btn" href="#contact">Let’s collaborate</a>
     </p>
   </section>
+
 
   <!-- =========================================================
        CONTACT
@@ -186,4 +213,5 @@
     });
   </script>
 </body>
+
 </html>
