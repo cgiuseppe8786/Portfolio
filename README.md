@@ -1,15 +1,55 @@
-# Personal Portfolio Project
+# 💼 Portfolio — Giuseppe C
 
-## Italiano
-Progetto sviluppato per FreeCodeCamp.
+## 📖 Descrizione
 
-## GitHub Pages
-- Aprire terminale
-- git init
-- git add .
-- git commit -m "Initial commit"
-- git branch -M main
-- git remote add origin https://github.com/username/05_portfolio_webpage.git
-- git push -u origin main
-- Vai su Settings -> Pages -> scegli branch main -> salva
-- Accessibile su https://username.github.io/05_portfolio_webpage/
+Questo progetto rappresenta il mio **portfolio personale**, sviluppato per raccogliere e presentare in modo chiaro e professionale i miei lavori realizzati durante il percorso di formazione su [freeCodeCamp](https://www.freecodecamp.org/) e i progetti successivi.
+
+Il sito è **completamente responsive**, **accessibile** e dotato di un **tema chiaro/scuro** con persistenza tramite `localStorage`.  
+Il design è stato curato nei dettagli per mantenere uno stile semplice, moderno e leggibile.
+
+---
+
+## 🧠 Obiettivi
+
+- Creare una **vetrina online** dei miei progetti.  
+- Applicare i principi di **Responsive Web Design** e **User Interface Design**.  
+- Implementare un **sistema di temi accessibile** (light/dark).  
+- Utilizzare **HTML e CSS puro**, mantenendo codice pulito e facilmente estendibile.  
+
+---
+
+## 🧰 Tecnologie Utilizzate
+
+- **HTML5** — Struttura semantica e accessibilità.  
+- **CSS3 (Custom Properties)** — Gestione del tema e variabili globali.  
+- **Flexbox & CSS Grid** — Layout fluidi e responsivi.  
+- **Vanilla JavaScript** — Persistenza del tema e piccole interazioni.
+
+---
+
+## 🚀 Demo
+
+👉 **Live Preview:** [https://cgiuseppe8786.github.io/Portfolio/](https://cgiuseppe8786.github.io/Portfolio/)
+
+---
+
+### 💻 Codice sorgente
+
+📂 **Repository:** [https://github.com/cgiuseppe8786/Portfolio](https://github.com/cgiuseppe8786/Portfolio)
+
+---
+
+## 🖼️ Progetti Inclusi
+
+| Progetto | Descrizione | Live Demo |
+|-----------|--------------|-----------|
+| **Survey Form** | Modulo di sondaggio responsive, creato per il certificato *Responsive Web Design* di freeCodeCamp. | [Apri ↗](https://cgiuseppe8786.github.io/SurveyForm/) |
+| **Tribute Page** | Pagina tributo dedicata a una figura ispiratrice, realizzata con HTML e CSS. | [Apri ↗](https://cgiuseppe8786.github.io/TributePage/) |
+| **Technical Documentation Page** | Documentazione tecnica responsive con struttura semantica. | [Apri ↗](https://cgiuseppe8786.github.io/TechnicalDocumentation/) |
+| **Product Landing Page** | Pagina promozionale per un prodotto, con layout flessibile e call to action. | [Apri ↗](https://cgiuseppe8786.github.io/ProductLanding/) |
+
+---
+
+## 🧾 Licenza
+
+Rilasciato sotto licenza [MIT](LICENSE).
