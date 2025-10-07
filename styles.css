@@ -194,7 +194,7 @@ body[data-theme="dark"] .theme-icon:hover{
 .welcome-figure{ display:grid; place-items:center; }
 .avatar-ring{
   width: 350px; height: 350px; padding: 8px; border-radius: 50%;
-  background: conic-gradient(from 120deg, var(--teal), var(--indigo), var(--teal));
+  background: conic-gradient(from 120deg, var(--card-border), var(--card), var(--card-border));
   box-shadow: 0 10px 40px rgba(0,0,0,.18);
 }
 .avatar-ring img{
