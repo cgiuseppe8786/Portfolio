@@ -125,7 +125,7 @@ body[data-theme="dark"] .theme-icon:hover{
 .brand span {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #333;
+  color: var(--text);
 }
 
 /* Links + toggle a destra */
