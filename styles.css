@@ -376,7 +376,7 @@ body[data-theme="dark"] .projects-btn {
 .footer{ background: var(--panel); border-top:1px solid var(--card-border); }
 .footer-inner{
   max-width:1100px; margin:0 auto; padding:14px 16px; color: var(--muted);
-  display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap;
+  display:flex; justify-content:flex-end; gap:12px; flex-wrap:wrap;
 }
 
 /* ===================== */
