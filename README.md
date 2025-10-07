@@ -14,7 +14,7 @@ Il design è stato curato nei dettagli per mantenere uno stile semplice, moderno
 - Creare una **vetrina online** dei miei progetti.  
 - Applicare i principi di **Responsive Web Design** e **User Interface Design**.  
 - Implementare un **sistema di temi accessibile** (light/dark).  
-- Utilizzare **HTML e CSS puro**, mantenendo codice pulito e facilmente estendibile.  
+- Utilizzare **HTML, CSS e JavaScript** mantenendo codice pulito e facilmente estendibile.  
 
 ---
 
@@ -47,6 +47,11 @@ Il design è stato curato nei dettagli per mantenere uno stile semplice, moderno
 | **Tribute Page** | Pagina tributo dedicata a una figura ispiratrice, realizzata con HTML e CSS. | [Apri ↗](https://cgiuseppe8786.github.io/TributePage/) |
 | **Technical Documentation Page** | Documentazione tecnica responsive con struttura semantica. | [Apri ↗](https://cgiuseppe8786.github.io/TechnicalDocumentation/) |
 | **Product Landing Page** | Pagina promozionale per un prodotto, con layout flessibile e call to action. | [Apri ↗](https://cgiuseppe8786.github.io/ProductLanding/) |
+| **Palindrome Checker** | Applicazione interattiva realizzata per la *JavaScript Algorithms and Data Structures Certification*, che verifica se una parola o frase è palindroma. | [Apri ↗](https://cgiuseppe8786.github.io/PalindromeChecker/) |
+| **Roman Numeral Converter** | Convertitore di numeri arabi in numeri romani, sviluppato con JavaScript e interfaccia responsive. | [Apri ↗](https://cgiuseppe8786.github.io/RomanNumeralConverter/) |
+| **Telephone Number Validator** | Applicazione che valida numeri di telefono statunitensi tramite espressioni regolari in JavaScript. | [Apri ↗](https://cgiuseppe8786.github.io/TelephoneNumberValidator/) |
+| **Cash Register** | Simulatore di registratore di cassa scritto in JavaScript, capace di calcolare il resto con precisione nei decimali. | [Apri ↗](https://cgiuseppe8786.github.io/CashRegister/) |
+| **RPG Creature Search** | Applicazione interattiva che consente di cercare e visualizzare creature in stile RPG, dimostrando l’uso di manipolazione dinamica dei dati in JavaScript. | [Apri ↗](https://cgiuseppe8786.github.io/RPG_CreatureSearch/) |
 
 ---
 
