@@ -411,6 +411,91 @@ body[data-theme="dark"] .projects {
   }
 }
 
+/* =============== */
+/* PROJECTS ACCORDION */
+/* =============== */
+
+.projects-accordion {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.projects-group {
+  background: var(--panel);
+  border: 1px solid rgba(0,0,0,.04);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+body[data-theme="dark"] .projects-group {
+  border-color: rgba(255,255,255,.05);
+}
+
+.projects-group__header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  background: transparent;
+  border: none;
+  padding: 14px 14px 12px;
+  cursor: pointer;
+  color: inherit;
+  font-weight: 600;
+}
+
+.projects-group__title {
+  flex: 1 1 auto;
+  text-align: left;
+}
+
+.projects-group__badge {
+  background: rgba(99,102,241,.15);
+  color: var(--text);
+  font-size: 0.7rem;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 3px 10px;
+}
+
+body[data-theme="dark"] .projects-group__badge {
+  background: rgba(99,102,241,.3);
+}
+
+.projects-group__chevron {
+  transition: transform .15s ease-out;
+  opacity: .6;
+}
+
+/* pannello */
+.projects-group__panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .2s ease-out;
+}
+
+/* stato aperto */
+.projects-group.is-open .projects-group__panel {
+  max-height: 2200px; /* abbastanza grande per tutti i progetti */
+}
+
+.projects-group.is-open .projects-group__chevron {
+  transform: rotate(180deg);
+}
+
+/* responsive (riusiamo già le tue regole per .projects-grid) */
+@media (max-width: 760px) {
+  .projects-group__header {
+    gap: 6px;
+  }
+}
+
+
 
 /* ===================== */
 /* PROJECTS CTA BUTTON   */
